@@ -103,6 +103,10 @@ textarea {
     margin: 0 30px 30px 0;
 }
 
+.optional-box > p {
+    margin-bottom: 10px;
+}
+
 .optional-list > li {
     list-style: none;
     margin-bottom: 5px;

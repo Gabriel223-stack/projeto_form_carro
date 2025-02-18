@@ -9,15 +9,20 @@
 }
 
 body {
-    background-color: #f0ebf8;
+    background: url(assets/carroça.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 h1, h2, h3, h4, h5 {
-    color: #333;
+    color: #000;
 }
 
 p, label {
-    color: #413e3e;
+    color: #000;
 }
 
 input {
@@ -26,12 +31,15 @@ input {
     padding: 10px 0;
 }
 
-#title {
+input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea {
     width: 400px;
+    background-color: transparent;
+    border: none;
 }
 
-input [type="text"], input[type="number"], input[type="date"], input[type="file"], textarea {
-    width: 400px;
+input[type="text"], input[type="number"], input[type="date"], input[type="file"], textare:focus {
+    border-color: transparent;
+    outline: none;
 }
 
 textarea {
@@ -41,23 +49,27 @@ textarea {
 /* PAGE HEADER */
 
 .header {
-    height: 160px;
-    padding: 20px;
-    background-color: #673ab7;
+    height: 100px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    background-color: #fdfdfdc2;
 }
 
 .header > h3 {
-    color: #fff;
-    margin-top: 0;
+    color: #000;
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 1.6em;
 }
 
 /* FORM CONTAINER */
 .form-container {
-    background-color: #fdfdfd;
+    background-color: #fdfdfde7;
     width: 60%;
     margin: 0 auto; /* CENTRALIZANDO */
     position: relative;
-    top: -62px;
+    top: -32px;
+    border-radius: 50px;
 }
 
 /* FORM HEADER*/
@@ -129,6 +141,7 @@ textarea {
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.5s;
+    border-radius: 35px;
 }
 
 .btn-submit:hover {

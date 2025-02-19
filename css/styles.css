@@ -49,9 +49,9 @@ textarea {
 /* PAGE HEADER */
 
 .header {
-    height: 100px;
+    height: 70px;
     padding-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     background-color: #fdfdfdc2;
 }
 
@@ -68,7 +68,6 @@ textarea {
     width: 60%;
     margin: 0 auto; /* CENTRALIZANDO */
     position: relative;
-    top: -32px;
     border-radius: 50px;
 }
 
